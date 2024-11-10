@@ -1,0 +1,188 @@
+/*------------------------header----------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    display: flex;
+    background: #1F2937;
+    color: white;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.header .headerLogo{
+    cursor: pointer;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.header a{
+    text-decoration-line: none;
+    color: rgb(218, 218, 218);
+}
+/*------------------------hero----------------------*/
+.hero{
+    padding: 100px;
+    color: white;
+    display: flex;
+    background: #1F2937;
+    flex: 1;
+    justify-content: center;
+    height: 400px;
+    gap: 0px;
+}
+
+.hero .container{
+    align-content: center;
+    width: 500px;
+    flex-shrink: 2;
+    padding-right: 240px;
+}
+
+.hero .title{
+    font-size: 48px;
+    margin: 0;
+}
+.hero .text{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 20px; 
+}
+
+.hero img{
+    height: 400px;
+}
+
+.hero .signup{
+    padding: 10px 25px;
+    background: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+/*-----------------------info---------------------*/
+
+.info{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title{
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.info .card{
+display: flexbox;
+width: 150px;
+text-wrap: wrap;
+text-align: center;
+}
+
+.info img{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.info .container{
+    display: flex;
+    flex: auto;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+/*---------------------------------quote-------------------------------*/
+
+.quoteBox{
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    height: 400px;
+}
+
+.quoteBox .container{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+.quoteBox .quote{
+    font-size: 36px;
+    max-width: 500px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+
+}
+.quoteBox .author{
+    padding: 0%;
+    font-weight: bolder;
+    margin: 0;
+    text-align: end;
+}
+
+/*-------------------------------call to action----------------------------------*/
+.callToAction{
+
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+.callToAction .container{
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882f6;
+    margin: 150px;
+    padding: 20px 0px;
+}
+.callToAction .signup{
+    display: flex;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.callToAction .text{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.callToAction .textSmall{
+    margin-top: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/*-------------------------------------footer------------------------------------*/
+
+.footer{
+    flex: auto;
+    text-align: center;
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 28px;
+}
